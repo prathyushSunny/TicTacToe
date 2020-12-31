@@ -1,16 +1,28 @@
-
-td{
-  width: 100px;
-  text-align: center;
-  padding-top: 48px;
-  font-weight: bold;
-  font-size: 50px;
+.main-container {
+    background-image: url('https://www.sfu.ca/~kwankiuc/ex2/images/whitebg.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
 }
 
-tr{
-  height: 80px;
+td {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
 }
 
-table, td, tr {
-  border: 2px solid black;
+tr {
+    height: 93px;
+}
+
+table,
+td,
+tr {
+    border: 2px solid black;
+}
+
+.display-4 {
+    font-family: monospace;
+    font-wightL bold
 }
